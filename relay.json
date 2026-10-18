@@ -1,0 +1,68 @@
+{
+  "relay_protocol": "hermes-relay/v1",
+  "created_utc": "2026-10-18T16:43:37.436+00:00",
+  "hops": [
+    {
+      "hop": 1,
+      "node": "hub-server-start",
+      "hostname": "pekoserver",
+      "platform": "Linux 5.15.0-177-generic",
+      "python": "3.10.12",
+      "timestamp_cn": "2026-10-19T00:43:37.436+08:00",
+      "timestamp_utc": "2026-10-18T16:43:37.436+00:00",
+      "epoch": 1792341817.436252,
+      "monotonic_ns": 13681048967433029,
+      "stamp_id": "f5f16745e79c"
+    },
+    {
+      "hop": 2,
+      "node": "pc-windows",
+      "hostname": "PEKO",
+      "platform": "Windows 11",
+      "python": "3.14.4",
+      "timestamp_cn": "2026-10-19T00:43:46.559+08:00",
+      "timestamp_utc": "2026-10-18T16:43:46.559+00:00",
+      "epoch": 1792341826.57976,
+      "monotonic_ns": 21508273651200,
+      "stamp_id": "0fdb1c3e5bf2"
+    },
+    {
+      "hop": 3,
+      "node": "hub-server-mid",
+      "hostname": "pekoserver",
+      "platform": "Linux 5.15.0-177-generic",
+      "python": "3.10.12",
+      "timestamp_cn": "2026-10-19T00:44:04.105+08:00",
+      "timestamp_utc": "2026-10-18T16:44:04.105+00:00",
+      "epoch": 1792341844.105055,
+      "monotonic_ns": 13681075636234189,
+      "stamp_id": "a9a7fd8382d7"
+    },
+    {
+      "hop": 4,
+      "node": "public-server",
+      "hostname": "VM-0-13-ubuntu",
+      "platform": "Linux 5.15.0-160-generic",
+      "python": "3.10.12",
+      "timestamp_cn": "2026-10-19T00:44:05.587+08:00",
+      "timestamp_utc": "2026-10-18T16:44:05.587+00:00",
+      "epoch": 1792341845.587071,
+      "monotonic_ns": 27255670469490783,
+      "stamp_id": "d17640bf361b"
+    },
+    {
+      "hop": 5,
+      "node": "hub-server-final",
+      "hostname": "pekoserver",
+      "platform": "Linux 5.15.0-177-generic",
+      "python": "3.10.12",
+      "timestamp_cn": "2026-10-19T00:44:14.719+08:00",
+      "timestamp_utc": "2026-10-18T16:44:14.719+00:00",
+      "epoch": 1792341854.719601,
+      "monotonic_ns": 13681086250780469,
+      "stamp_id": "5497443abc8c"
+    }
+  ],
+  "last_updated_utc": "2026-10-18T16:44:14.719+00:00",
+  "hop_count": 5
+}
